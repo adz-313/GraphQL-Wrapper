@@ -11,7 +11,7 @@ Visit the demo [here](https://graphqlwrapper.herokuapp.com/graphql).
 * But not all organizations may want to switch from REST API, so an alternative option is to wrap your existing REST API inside GraphQL API.
 
 ## About this demo
-* I have used the Current Weather Data API of OpenWeatherMap API for the purpose of demonstration.
+* I have used the Current Weather Data of OpenWeatherMap API for the purpose of demonstration.
 * The city is set to London by default.
 * The following code shows the JSON response from the API.
 ```
