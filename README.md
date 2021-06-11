@@ -66,7 +66,7 @@ Visit the demo [here](https://graphqlwrapper.herokuapp.com/graphql).
 2. Install dependencies using `npm i` command.
 3. Generate your API key from [OpenWeatherMap website](https://openweathermap.org/).
 4. Create a .env file and add your key as shown in the example file.
-5. Alternatively, you can add your key inside the `base_url` od schema.js.
+5. Alternatively, you can add your key inside the `base_url` of schema.js.
 6. Run the project using `npm start`.
 
 
