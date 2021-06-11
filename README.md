@@ -1,6 +1,9 @@
 # GraphQL-Wrapper
 Visit the demo [here](https://graphqlwrapper.herokuapp.com/graphql).
 
+## Technologies used
+![image](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white) ![image](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![image](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+
 ## Introduction
 * This is a demo of how you can wrap your existing REST API inside a GraphQL API.
 * Many popular REST APIs respond with data you may not need. I encountered some of the weather and movie APIs with a lot of unwanted data. 
@@ -8,9 +11,9 @@ Visit the demo [here](https://graphqlwrapper.herokuapp.com/graphql).
 * But not all organizations may want to switch from REST API, so an alternative option is to wrap your existing REST API inside GraphQL API.
 
 ## About this demo
-* I have used the Current Weather Data API of OpenWeather API for the purpose of demonstration.
+* I have used the Current Weather Data API of OpenWeatherMap API for the purpose of demonstration.
 * The city is set to London by default.
-* The following code shows JSON response from the API.
+* The following code shows the JSON response from the API.
 ```
 {
   "coord": {
@@ -57,6 +60,14 @@ Visit the demo [here](https://graphqlwrapper.herokuapp.com/graphql).
   "cod": 200
 }
 ```
+
+## Running demo on a local device
+1. Clone this repository.
+2. Install dependencies using `npm i` command.
+3. Generate your API key from [OpenWeatherMap website](https://openweathermap.org/).
+4. Create a .env file and add your key as shown in the example file.
+5. Alternatively, you can add your key inside the `base_url` od schema.js.
+6. Run the project using `npm start`.
 
 
 
